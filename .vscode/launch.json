@@ -1,0 +1,26 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+	  {
+		"name": "Windows",
+		"type": "hxcpp",
+		"preLaunchTask": "Build Windows",
+		"request": "launch",
+		"program": "${workspaceFolder}/export/windows/bin/Psychosis_WIN.exe"
+	  },
+	  {
+		"name": "Linux",
+		"type": "hxcpp",
+		"preLaunchTask": "Build Linux",
+		"request": "launch",
+		"program": "${workspaceFolder}/export/linux/bin/Psychosis_APP"
+	  },
+	  {
+		"name": "Mac",
+		"type": "hxcpp",
+		"preLaunchTask": "Build Mac",
+		"request": "launch",
+		"program": "${workspaceFolder}/export/macos/bin/Psychosis_MAC"
+	  },
+	],
+  }

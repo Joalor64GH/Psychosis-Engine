@@ -4,17 +4,100 @@ APIStuff.hx
 art/build_x32-officialrelease.bat
 art/build_x64-officialrelease.bat
 art/test_x64-debug-officialrelease.bat
+# Newgrounds IO Stuff
+source/NGio.hx
+source/io/
+# Misc
+Preloader.hx
+
+### Crash Stuff
+crash-dialog/
+build-crash-dialog.bat
+build-crash-dialog-linux.sh
+build-crash-dialog-mac.sh
+
+### FNF-Bot
+FNFBot.exe
+
+### GameJolt-Specific
+source/GJKeys.hx
+source/GameJolt.hx
+
+### Source Stuff
+source_test/
+sourceUnstable/
+source - Copy/
+source_old/
+source_backup/
+newSource/
+source-default/
+
+### Android-Specific
+source/SUtil.hx
+source/android/
+assets/android/
+assets/images/androidcontrols/
+art/setupFiles/android/build_android.bat
+art/setupFiles/android/build_android-debug.bat
+art/dependencyFiles/android/
+
+### Appveyor-Specific
+appveyor.yml
+appveyor-win32.yml
+
+### Markdown Files
+BUILDING.md
+ModCharts.md
+beta.md
+
+### Git-Specific
+.gitmodules
+.gitconfig
+
+### Stage Editor-Related
+assets/images/stageborder.png
+source/editors/StageEditorState.hx
+source/LayerFile.hx
+
+### Stepmania Stuff
+assets/sm/
+source/smTools/
+
+### Miscellaneous
+.github/PULL_REQUEST_TEMPLATE/
+.github/ISSUE_TEMPLATE
+.circleci/
+ndll/
+Week7Assets/
+dump/
+git/
+documentaton/
+source/.vscode/launch.json
+open cmd.bat
+open wsl.bat
+builddocs.bat
+wintestdebug.bat
+daversion
+version.Awesome
+gameVersion.txt
+version.txt
+PlayState - Copy.hx
+
+### Add these regardless of them getting ignored.
+!TempFiles/
+!modchartexample.mc
+!appveyor-linux.yml
+!appveyor-macos.yml
+!appveyor-windows.yml
+!azure-pipelines.yml
+!*.hxml
+!*.hxproj
+!VERSION
 
 ### VS Code
 export/*
-.vscode/*
-*.code-workspace
+.vscode/.temp
+.vs/*
 # Local history which shouldn't be shared.
 .history
 .ionide
-# ! means a file should be added regardless of it it gets ignored prior.
-# Including to allow others to use already set-up configuration tweaked for the project.
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
