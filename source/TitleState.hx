@@ -597,7 +597,7 @@ class TitleState extends MusicBeatState
 				// credTextShit.screenCenter();
 				case 5:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Improved'by'], -40);
+					createCoolText(['Improved', 'by'], -40);
 					#else
 					createCoolText(['Not in association', 'with'], -40);
 					#end
